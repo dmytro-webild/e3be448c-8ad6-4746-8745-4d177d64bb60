@@ -40,7 +40,7 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="MediaProd TN"
+      brandName="next prod TN"
       button={{
         text: "Get Started"}}
     />
@@ -79,6 +79,7 @@ export default function LandingPage() {
       title="Crafting Stories with Technological Precision"
       tag="About Us"
       buttons={[
+        { text: "Learn More", href: "#features" },
         { text: "Get Started", href: "#contact" }
       ]}
       buttonAnimation="slide-up"
@@ -201,7 +202,7 @@ export default function LandingPage() {
           ],
         },
       ]}
-      bottomLeftText="© 2024 MediaProd TN"
+      bottomLeftText="© 2024 next prod TN"
       bottomRightText="All rights reserved."
     />
   </div>
